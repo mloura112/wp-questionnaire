@@ -37,7 +37,7 @@
 			</div>
 		</div>
 	</header>  */ ?>
-	<form method="POST" enctype="multipart/form-data" action="https://beta.zenfitapp.com/trainer/leadCreateQuery/7"  id="aad_form" >
+	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/7"  id="aad_form" >
 	<input type="hidden" name="leadType" value="survey" />
 	<div class="first_form_tap">
 		<h2>Vælg dit køn</h2>
