@@ -178,7 +178,7 @@
 					<input disabled id="aad_sw2" type="text" data-id="Nuværende vægt ser forkert ud" name="startWeight" class='clear_now dotallow' placeholder="Din nuværende vægt i kg">
 					<p class="margin_up hidden_small">Feet&Inches</p>
 					 <div class="feet_inch hidden_small">
-<input type="hidden"  id="height_aad1" name="height" />
+						<input type="hidden" disabled id="height_aad1" name="height" />
 						<input disabled  id="aad_f2"  type="text" data-id="Feet ser forkert ud" class='clear_now dotallow' placeholder="Feet">
 						<input disabled  id="aad_i2"  type="text" data-id="Inches ser forkert ud"  class='clear_now dotallow' placeholder="Inches">
 					</div>

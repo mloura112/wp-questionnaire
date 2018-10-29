@@ -178,7 +178,7 @@
 					<input disabled id="aad_sw2" type="text" data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in lbs">
 					<p class="margin_up hidden_small">Feet&Inches</p>
 					 <div class="feet_inch hidden_small">
-<input type="hidden"  id="height_aad1" name="height" />
+						<input type="hidden" disabled id="height_aad1" name="height" />
 						<input disabled  id="aad_f2"  type="text" data-id="Feet looks wrong" class='clear_now dotallow' placeholder="Feet">
 						<input disabled  id="aad_i2"  type="text" data-id="Inches looks wrong"  class='clear_now dotallow' placeholder="Inches">
 					</div>
