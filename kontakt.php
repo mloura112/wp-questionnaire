@@ -246,7 +246,7 @@
 	<div class="active_block">
 		<h2>Aktivitetsniveau</h2>
 		<h5>Intensitet af dit aktivitetsniveau </h5>
-		<p>Svare til du er moderat aktivt (fx træener 3-5 gange om ugen)</p>
+		<p>Svarer til du er moderat aktivt (fx træener 3-5 gange om ugen)</p>
 		<div class="active_block_range">
 			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
