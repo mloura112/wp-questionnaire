@@ -37,7 +37,7 @@
 			</div>
 		</div>
 	</header>  */ ?>
-	<form method="POST" enctype="multipart/form-data" action="https://beta.zenfitapp.com/trainer/leadCreateQuery/7"  id="aad_form" >
+	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/7"  id="aad_form" >
 	<input type="hidden" name="leadType" value="survey" />
 	<div class="first_form_tap">
 		<h2>Choose sex</h2>
@@ -112,7 +112,7 @@
 				</div>
 			</div>
 			<div class="choose_weight_one">
-				<h2>Fokus på særlige muskelgrupper?</h2>
+				<h2>Focus on certain muscle groups?</h2>
 				<div class="inner_w_ch">
 					<div onclick="set_goaltype('Chest');" >
 						<p>Chest</p>
@@ -165,7 +165,7 @@
 					<!-- <input type="text"  placeholder="Jeg kender ikke fedtprocent"> -->
 					<p class="margin_up">Fat-%</p>
 					<select name="startFat" id="f1aselect" class="aad_sf1 clear_now just_select" data-id="Fat % looks wrong">
-						<option value=""   value="I don\'t know my fat %">
+						<option value=""   value="I don't know my fat %">
 							I don't know my fat %
 						</option>
 					</select>
