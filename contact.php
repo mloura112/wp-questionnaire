@@ -40,7 +40,7 @@
 	<form method="POST" enctype="multipart/form-data" action="https://beta.zenfitapp.com/trainer/leadCreateQuery/7"  id="aad_form" >
 	<input type="hidden" name="leadType" value="survey" />
 	<div class="first_form_tap">
-		<h2>Choose sex</h2>
+		<h2>Choose gender</h2>
 		<div class="first_switch">
 				<a onclick="set_gender('2')"  data-id="Vælge dit køn">Male</a>
 				<a onclick="set_gender('1')" >Female</a>
