@@ -97,7 +97,7 @@
 
 		<div class="shown_on_box">
 			<h2>Intensitet af målsætning</h2>
-			<div class="helper-box active" data-val="1" style="text-align:center;">
+			<div class="helper-box" data-val="1" style="text-align:center;">
           <p data-val="1" class="hidden">Jeg ønsker at tabe mig cirka 1 kilo per uge</p>
           <p data-val="2" class="hidden">Jeg ønsker at tabe mig cirka 0,5 kilo per uge</p>
           <p data-val="3" class="active">Jeg ønsker at beholde min nuværende vægt</p>
@@ -105,7 +105,7 @@
           <p data-val="5" class="hidden">Jeg ønsker at tage cirka 1,0 kilo på per uge</p>
       </div>
 			<div class="weight_slider">
-				<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+				<input id="ex1" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 				<div class="weight_txt">
 					<p>Tabe mig</p>
 					<p>Øge muskelmasse</p>
@@ -245,10 +245,16 @@
 
 	<div class="active_block">
 		<h2>Aktivitetsniveau</h2>
-		<h5>Intensitet af dit aktivitetsniveau </h5>
-		<p>Svarer til du er moderat aktivt (fx træener 3-5 gange om ugen)</p>
+		<h5>Intensitet af dit aktivitetsniveau</h5>
+		<div class="helper-box" style="text-align:center;">
+				<p data-val="1" class="hidden">Svarer til du er mest stillesiddende, og træner aldrig</p>
+				<p data-val="2" class="hidden">Svarer til du træner sjældent, måske 1-2 gange om ugen</p>
+				<p data-val="3" class="active">Svarer til du er moderat aktivt (fx træner 3-5 gange om ugen)</p>
+				<p data-val="4" class="hidden">Svarer til du er meget aktiv, med forholdvis aktivt job og træning fx 6 gange om ugen</p>
+				<p data-val="5" class="hidden">Svarer til du er ekstremt aktiv både på dit job og med træning</p>
+		</div>
 		<div class="active_block_range">
-			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Ikke aktiv</p>
 				<p>Ekstremt aktiv</p>
@@ -317,9 +323,14 @@
 		</div>
 		<div class="active_block_range">
 			<h2>Erfaringsniveau</h2>
-			<!-- <h4>Trænet i flere år og kan de fleste øvelser</h4> -->
-			<h4>Jeg har lidt erfaring, men vil gerne have meget forklaring</h4>
-			<input name="experience" id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
+			<div class="helper-box" style="text-align:center;">
+					<p data-val="1" class="hidden">Jeg er total nybegynder, kender ingen øvelser</p>
+					<p data-val="2" class="hidden">Jeg har lidt erfaring, men vil gerne have meget forklaring</p>
+					<p data-val="3" class="active">Jeg har trænet i nogle år, og kan de fleste øvelser</p>
+					<p data-val="4" class="hidden">Jeg har godt styr på øvelser, teknikker og er øvet</p>
+					<p data-val="5" class="hidden">Jeg har trænet mange år, og har styr på teknikkerne</p>
+			</div>
+			<input name="experience" id="ex3" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Nybegynder</p>
 				<p>Trænet mange år</p>
@@ -336,10 +347,16 @@ mv. her…"></textarea>
 	<div class="prelast_block">
 		<h2>Din motivation, skader, mv.</h2>
 		<h6>Din motivation fra 1 - 5</h6>
-		<h5>Jeg er ret motiveret, men vil også have et liv ved siden af</h5>
+		<div class="helper-box" style="text-align:center;">
+				<p data-val="1" class="hidden">Jeg er ikke motiveret, men bliver nødt til det</p>
+				<p data-val="2" class="hidden">Jeg er rimelig motiveret, og falder nok ofte i</p>
+				<p data-val="3" class="active">Jeg er motiveret, men vigtigt at jeg også har et liv ved siden af</p>
+				<p data-val="4" class="hidden">Jeg er meget motiveret, og klar til følge al vejledning</p>
+				<p data-val="5" class="hidden">Jeg er yderst motiveret, på niveau med en konkurrenceatlet</p>
+		</div>
 		<div class="active_block_range">
 
-			<input name="motivation" id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
+			<input name="motivation" id="ex4" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>1. Ikke motiveret</p>
 				<p>5. Ekstremt motiveret</p>

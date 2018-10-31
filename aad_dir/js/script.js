@@ -625,94 +625,9 @@ $(document).ready(function(){
   }
 
 
-$(".active_block_range>#ex2").on("change" ,function(){
-	if ($(window).width() > 991) {
-		if (!$(this).hasClass("already_added")) {
-			var val = parseFloat($("#percent_in_header").text()) + 10;
-			$("#percent_in_header").text(val + "%");
-			var added = $(".center_head .progress-bar").css("width" , "+=50");
-			$(".active_block_range>#ex2").addClass("already_added");
-		}
-	} else {
-		if (!$(this).hasClass("already_added")) {
-			var val = parseFloat($("#percent_in_header").text()) + 10;
-			$("#percent_in_header").text(val + "%");
-			var added = $(".center_head .progress-bar").css("width" , "+=25");
-			$(".active_block_range>#ex2").addClass("already_added");
-		}
-	}
-	switch ($(this).attr("value")) {
-	    case '1':
-	        $(".active_block>p").text("Svarer til du er mest stillesiddende, og træner aldrig");
-	        break;
-	    case '2':
-	        $(".active_block>p").text("Svarer til du træner sjældent, måske 1-2 gange om ugen");
-	        break;
-	    case '3':
-	        $(".active_block>p").text("Svarer til du er moderat aktivt (fx træner 3-5 gange om ugen)");
-	      break;
-	    case '4':
-	        $(".active_block>p").text("Svarer til du er meget aktiv, med forholdvis aktivt job og træning fx 6 gange om ugen");
-	      break;
-	    case '5':
-	        $(".active_block>p").text("Svarer til du er ekstremt aktiv både på dit job og med træning");
-	      break;
-	}
-});
-
-
-
-
-
-
-
-
-
-$(".active_block_range>#ex3").on("change" ,function(){
-	console.log($(this).attr("value"));
-	switch ($(this).attr("value")) {
-    case '1':
-        $(".active_block_range>h4").text("Jeg er total nybegynder, kender ingen øvelser");
-        break;
-    case '2':
-         $(".active_block_range>h4").text("Jeg har lidt erfaring, men vil gerne have meget forklaring");
-        break;
-    case '3':
-        $(".active_block_range>h4").text("Jeg har trænet i nogle år, og kan de fleste øvelser");
-      break;
-    case '4':
-       $(".active_block_range>h4").text("Jeg har godt styr på øvelser, teknikker og er øvet");
-      break;
-    case '5':
-       $(".active_block_range>h4").text("Jeg har trænet mange år, og har styr på teknikkerne");
-      break;
-}
-});
-
-
-$(".active_block_range>#ex4").on("change" ,function(){
-	switch ($(this).attr("value")) {
-    case '1':
-        $(".prelast_block>h5").text("Jeg er ikke motiveret, men bliver nødt til det");
-        break;
-    case '2':
-         $(".prelast_block>h5").text("Jeg er rimelig motiveret, og falder nok ofte i");
-        break;
-    case '3':
-        $(".prelast_block>h5").text("Jeg er motiveret, men vigtigt at jeg også har et liv ved siden af");
-      break;
-    case '4':
-       $(".prelast_block>h5").text("Jeg er meget motiveret, og klar til følge al vejledning");
-      break;
-    case '5':
-       $(".prelast_block>h5").text("Jeg er yderst motiveret, på niveau med en konkurrenceatlet");
-      break;
-}
-});
-
-
-
-
+  $(".slider").on("change", function() {
+    updateHelperText($(this));
+  });
 
 
 
