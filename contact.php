@@ -256,8 +256,8 @@
 		<div class="active_block_range">
 			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="4"/>
 			<div class="active_r_text">
-				<p>Ikke aktiv</p>
-				<p>Ekstremt aktiv</p>
+				<p>Not active</p>
+				<p>Very active</p>
 			</div>
 		</div>
 	</div>
