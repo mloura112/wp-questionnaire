@@ -153,18 +153,18 @@
 			<div id="aad_dfd1" class="f1i  same_bl" style='display:none'>
 				<div class="group_sec">
 					<p>Nuværende vægt </p>
-					<input type="text" id="aad_sw1"  data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in kg">
+					<input disabled type="text" id="aad_sw1"  data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in kg">
 					<p class="margin_up hidden_small">Height</p>
-					<input type="text"  id="aad_height" data-id="Height looks wrong" name="height"   class='clear_now dotallow hidden_small' placeholder="Your height in cm">
+					<input disabled type="text"  id="aad_height" data-id="Height looks wrong" name="height"   class='clear_now dotallow hidden_small' placeholder="Your height in cm">
 				</div>
 				<div class="group_sec">
 					<p >Goal weight</p>
-					<input type="text"  id="aad_gw1"  data-id="Goal weight looks wrong"  name="goalWeight" class='clear_now dotallow' placeholder="Goal weight in kg">
+					<input disabled type="text"  id="aad_gw1"  data-id="Goal weight looks wrong"  name="goalWeight" class='clear_now dotallow' placeholder="Goal weight in kg">
 					<p class="margin_up visible_on_small">Højde</p>
-					<input type="text" name="height" data-id="Height looks wrong"  class='clear_now dotallow visible_on_small' placeholder="Your height in cm">
+					<input disabled type="text" name="height" data-id="Height looks wrong"  class='clear_now dotallow visible_on_small' placeholder="Your height in cm">
 					<!-- <input type="text"  placeholder="Jeg kender ikke fedtprocent"> -->
 					<p class="margin_up">Fat-%</p>
-					<select name="startFat" id="f1aselect" class="aad_sf1 clear_now just_select" data-id="Fat % looks wrong">
+					<select disabled name="startFat" id="f1aselect" class="aad_sf1 clear_now just_select" data-id="Fat % looks wrong">
 						<option value=""   value="I don't know my fat %">
 							I don't know my fat %
 						</option>
@@ -175,27 +175,27 @@
 			<div  id="aad_dfd2"  class="f2i same_bl">
 				<div class="group_sec">
 					<p>Current weight</p>
-					<input disabled id="aad_sw2" type="text" data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in lbs">
+					<input id="aad_sw2" type="text" data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in lbs">
 					<p class="margin_up hidden_small">Feet&Inches</p>
 					 <div class="feet_inch hidden_small">
-						<input type="hidden" disabled id="height_aad1" name="height" />
-						<input disabled  id="aad_f2"  type="text" data-id="Feet looks wrong" class='clear_now dotallow' placeholder="Feet">
-						<input disabled  id="aad_i2"  type="text" data-id="Inches looks wrong"  class='clear_now dotallow' placeholder="Inches">
+						<input type="hidden" id="height_aad1" name="height" />
+						<input  id="aad_f2"  type="text" data-id="Feet looks wrong" class='clear_now dotallow' placeholder="Feet">
+						<input  id="aad_i2"  type="text" data-id="Inches looks wrong"  class='clear_now dotallow' placeholder="Inches">
 					</div>
 					<p class=" visible_on_small margin_up">Goal weight</p>
-					<input disabled  id="aad_gw2"  type="text" class='clear_now visible_on_small dotallow' name="goalWeight" data-id="Goal weight looks wrong" placeholder="Goal weight in lbs">
+					<input id="aad_gw2"  type="text" class='clear_now visible_on_small dotallow' name="goalWeight" data-id="Goal weight looks wrong" placeholder="Goal weight in lbs">
 				</div>
 				<div class="group_sec">
 					<p class="margin_up left_rmv visible_on_small">Feet&Inches</p>
 					<div class="feet_inch visible_on_small">
 
-						<input disabled  id="aad_f2"  type="text" data-id="Feet looks wrong" class='clear_now dotallow' placeholder="Feet">
-						<input disabled   id="aad_i2" type="text" data-id="Inches looks wrong" class='clear_now dotallow' placeholder="Inches">
+						<input id="aad_f2"  type="text" data-id="Feet looks wrong" class='clear_now dotallow' placeholder="Feet">
+						<input id="aad_i2" type="text" data-id="Inches looks wrong" class='clear_now dotallow' placeholder="Inches">
 					</div>
-					<p class=" hidden_small">Ønskede vægt</p>
-					<input disabled  id="aad_gw2"  type="text" class='clear_now hidden_small dotallow' name="goalWeight"   data-id="Goal weight looks wrong" placeholder="Goal weight in lbs">
+					<p class=" hidden_small">Goal weight</p>
+					<input id="aad_gw2"  type="text" class='clear_now hidden_small dotallow' name="goalWeight"   data-id="Goal weight looks wrong" placeholder="Goal weight in lbs">
 					<p class="margin_up">Fat-%</p>
-					<select disabled  name="startFat" id="f1aselect" class="aad_sf2 clear_now just_select" data-id="Fat% looks wrong">
+					<select name="startFat" id="f2aselect" class="aad_sf2 clear_now just_select" data-id="Fat% looks wrong">
 						<option value="" selected="selected"  value="I don't know my fat %">
 							I don't know my fat %
 						</option>
@@ -246,9 +246,15 @@
 	<div class="active_block">
 		<h2>Activity Level</h2>
 		<h5>Intensity of activity level</h5>
-		<p></p>
+		<div class="helper-box" style="text-align:center;">
+				<p data-val="2" class="hidden">I do not do any physical exercise</p>
+				<p data-val="3" class="hidden">I am not very active and train 2-3 days a week</p>
+				<p data-val="4" class="active">I am moderately active and work out 3-4 times a week</p>
+				<p data-val="5" class="hidden">I am pretty active and work out quite a bit</p>
+				<p data-val="6" class="hidden">I have a hard physical job and work out most days</p>
+		</div>
 		<div class="active_block_range">
-			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="4"/>
 			<div class="active_r_text">
 				<p>Ikke aktiv</p>
 				<p>Ekstremt aktiv</p>
@@ -317,9 +323,14 @@
 		</div>
 		<div class="active_block_range">
 			<h2>Experience</h2>
-			<!-- <h4>Trænet i flere år og kan de fleste øvelser</h4> -->
-			<h4>I have a little bit of experience</h4>
-			<input name="experience" id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
+			<div class="helper-box" style="text-align:center;">
+					<p data-val="1" class="hidden">I am totally inexperienced</p>
+					<p data-val="2" class="hidden">I have a little bit of experience</p>
+					<p data-val="3" class="active">I have been working out for quite some time and know some exercises</p>
+					<p data-val="4" class="hidden">I am pretty experienced and know most exercises</p>
+					<p data-val="5" class="hidden">I have worked out for many years and know all exercises</p>
+			</div>
+			<input name="experience" id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Not experienced</p>
 				<p>Highly experienced</p>
@@ -335,10 +346,16 @@
 	<div class="prelast_block">
 		<h2>Motivation</h2>
 		<h6>Your motivation from 1 - 5</h6>
-		<h5></h5>
+		<div class="helper-box" style="text-align:center;">
+				<p data-val="1" class="hidden">I am not very motivated</p>
+				<p data-val="2" class="hidden">Somewhat motivated</p>
+				<p data-val="3" class="active">I am pretty motivated, but I want to have a life as well</p>
+				<p data-val="4" class="hidden">I am motivated and ready to do this!</p>
+				<p data-val="5" class="hidden">I am exceptionally motivated</p>
+		</div>
 		<div class="active_block_range">
 
-			<input name="motivation" id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="2"/>
+			<input name="motivation" id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Not motivated</p>
 				<p>Very motivated</p>

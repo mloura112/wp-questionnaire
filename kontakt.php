@@ -247,14 +247,14 @@
 		<h2>Aktivitetsniveau</h2>
 		<h5>Intensitet af dit aktivitetsniveau</h5>
 		<div class="helper-box" style="text-align:center;">
-				<p data-val="1" class="hidden">Svarer til du er mest stillesiddende, og træner aldrig</p>
-				<p data-val="2" class="hidden">Svarer til du træner sjældent, måske 1-2 gange om ugen</p>
-				<p data-val="3" class="active">Svarer til du er moderat aktivt (fx træner 3-5 gange om ugen)</p>
-				<p data-val="4" class="hidden">Svarer til du er meget aktiv, med forholdvis aktivt job og træning fx 6 gange om ugen</p>
-				<p data-val="5" class="hidden">Svarer til du er ekstremt aktiv både på dit job og med træning</p>
+				<p data-val="2" class="hidden">Svarer til du er mest stillesiddende, og træner aldrig</p>
+				<p data-val="3" class="hidden">Svarer til du træner sjældent, måske 1-2 gange om ugen</p>
+				<p data-val="4" class="active">Svarer til du er moderat aktivt (fx træner 3-5 gange om ugen)</p>
+				<p data-val="5" class="hidden">Svarer til du er meget aktiv, med forholdvis aktivt job og træning fx 6 gange om ugen</p>
+				<p data-val="6" class="hidden">Svarer til du er ekstremt aktiv både på dit job og med træning</p>
 		</div>
 		<div class="active_block_range">
-			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="4"/>
 			<div class="active_r_text">
 				<p>Ikke aktiv</p>
 				<p>Ekstremt aktiv</p>
