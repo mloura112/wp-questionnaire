@@ -105,7 +105,7 @@
           <p data-val="5" class="hidden">I want to gain about 2 lbs per week</p>
       </div>
 			<div class="weight_slider">
-				<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+				<input id="ex1" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 				<div class="weight_txt">
 					<p>Lose weight</p>
 					<p>Gain muscles</p>
@@ -254,7 +254,7 @@
 				<p data-val="6" class="hidden">I have a hard physical job and work out most days</p>
 		</div>
 		<div class="active_block_range">
-			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="4"/>
+			<input name="activityLevel" id="ex2" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="4"/>
 			<div class="active_r_text">
 				<p>Ikke aktiv</p>
 				<p>Ekstremt aktiv</p>
@@ -330,7 +330,7 @@
 					<p data-val="4" class="hidden">I am pretty experienced and know most exercises</p>
 					<p data-val="5" class="hidden">I have worked out for many years and know all exercises</p>
 			</div>
-			<input name="experience" id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+			<input name="experience" id="ex3" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Not experienced</p>
 				<p>Highly experienced</p>
@@ -355,7 +355,7 @@
 		</div>
 		<div class="active_block_range">
 
-			<input name="motivation" id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
+			<input name="motivation" id="ex4" data-slider-id='ex1Slider' class="slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="3"/>
 			<div class="active_r_text">
 				<p>Not motivated</p>
 				<p>Very motivated</p>
