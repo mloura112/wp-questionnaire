@@ -42,7 +42,7 @@
 	<div class="first_form_tap">
 		<h2>Choose gender</h2>
 		<div class="first_switch">
-				<a onclick="set_gender('2')"  data-id="Vælge dit køn">Male</a>
+				<a onclick="set_gender('2')"  data-id="Choose gender">Male</a>
 				<a onclick="set_gender('1')" >Female</a>
 						<input type="hidden" id="aad_gender" name="gender" />
 		</div>
@@ -80,7 +80,7 @@
 	<div class="third_form_tap">
 		<h2>Your goal</h2>
 		<div class="outer_third_butt">
-			<div onclick="set_primary_goal('1');" data-id="Vælge målsætning">
+			<div onclick="set_primary_goal('1');" data-id="Choose goal">
 				<div class="third_ch_img">
 					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch1.png" alt="ch1">
 				</div>
@@ -141,7 +141,7 @@
 		<h5>Choose measurement system</h5>
 		<div class="fourth_radios">
 			 <p onclick="set_div('1');">
-			   <input data-id="Vælge målingstype" type="radio" id="test1" name="measuringSystem" value="2" checked="checked">
+			   <input data-id="Choose measurement system" type="radio" id="test1" name="measuringSystem" value="2" checked="checked">
 			   <label for="test1">US (lbs/inches)</label>
 			 </p>
 			 <p onclick="set_div('2');" >
@@ -152,7 +152,7 @@
 		<div class="fourth_inps">
 			<div id="aad_dfd1" class="f1i  same_bl" style='display:none'>
 				<div class="group_sec">
-					<p>Nuværende vægt </p>
+					<p>Current weight </p>
 					<input disabled type="text" id="aad_sw1"  data-id="Current weight looks wrong" name="startWeight" class='clear_now dotallow' placeholder="Current weight in kg">
 					<p class="margin_up hidden_small">Height</p>
 					<input disabled type="text"  id="aad_height" data-id="Height looks wrong" name="height"   class='clear_now dotallow hidden_small' placeholder="Your height in cm">
@@ -264,7 +264,7 @@
 
 
 	<div class="alot_choose">
-		<h2>Things I don't like or is allergic to</h2>
+		<h2>Things I don't like or am allergic to</h2>
 		<div class="chooses_out">
 			<div onclick="set_food_preferences('avoidLactose');" class="elchi">
 				<p>Lactose</p>

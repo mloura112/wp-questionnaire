@@ -42,7 +42,7 @@
 	<div class="first_form_tap">
 		<h2>Vælg dit køn</h2>
 		<div class="first_switch">
-				<a onclick="set_gender('2')"  data-id="Vælge dit køn">Mand</a>
+				<a onclick="set_gender('2')"  data-id="Vælg dit køn">Mand</a>
 				<a onclick="set_gender('1')" >Kvinde</a>
 						<input type="hidden" id="aad_gender" name="gender" />
 		</div>
@@ -80,7 +80,7 @@
 	<div class="third_form_tap">
 		<h2>Din målsætning</h2>
 		<div class="outer_third_butt">
-			<div onclick="set_primary_goal('1');" data-id="Vælge målsætning">
+			<div onclick="set_primary_goal('1');" data-id="Vælg målsætning">
 				<div class="third_ch_img">
 					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch1.png" alt="ch1">
 				</div>
@@ -141,7 +141,7 @@
 		<h5>Vælg målingstype</h5>
 		<div class="fourth_radios">
 			 <p onclick="set_div('1');">
-			   <input data-id="Vælge målingstype" type="radio" id="test1" name="measuringSystem" value="2" >
+			   <input data-id="Vælg målingstype" type="radio" id="test1" name="measuringSystem" value="2" >
 			   <label for="test1">US (lbs/inches)</label>
 			 </p>
 			 <p onclick="set_div('2');" >
@@ -183,7 +183,7 @@
 						<input disabled  id="aad_i2"  type="text" data-id="Inches ser forkert ud"  class='clear_now dotallow' placeholder="Inches">
 					</div>
 					<p class=" visible_on_small margin_up">Ønskede vægt</p>
-					<input disabled  id="aad_gw2"  type="text" class='clear_now visible_on_small dotallow' name="goalWeight" data-id="ønskede vægt ser forkert ud" placeholder="Din ønskede vægt i kg">
+					<input disabled  id="aad_gw2"  type="text" class='clear_now visible_on_small dotallow' name="goalWeight" data-id="Ønskede vægt ser forkert ud" placeholder="Din ønskede vægt i kg">
 				</div>
 				<div class="group_sec">
 					<p class="margin_up left_rmv visible_on_small">Feet&Inches</p>
@@ -193,7 +193,7 @@
 						<input disabled   id="aad_i2" type="text" data-id="Inches ser forkert ud" class='clear_now dotallow' placeholder="Inches">
 					</div>
 					<p class=" hidden_small">Ønskede vægt</p>
-					<input disabled  id="aad_gw2"  type="text" class='clear_now hidden_small dotallow' name="goalWeight"   data-id="ønskede vægt ser forkert ud" placeholder="Din ønskede vægt i kg">
+					<input disabled  id="aad_gw2"  type="text" class='clear_now hidden_small dotallow' name="goalWeight" data-id="Ønskede vægt ser forkert ud" placeholder="Din ønskede vægt i kg">
 					<p class="margin_up">Fedt-%</p>
 					<select disabled  name="startFat" id="f1aselect" class="aad_sf2 clear_now just_select" data-id="Fedt-% ser forkert ud">
 						<option value="" selected="selected"  value="Jeg kender ikke fedtprocent">
@@ -337,8 +337,7 @@
 			</div>
 			<div class="training_comment">
 				<p>Yderligere bemærkninger til træning og erfaring?</p>
-				<textarea  name="exercisePreferences" id="" cols="30" rows="10" class="js-elasticArea" placeholder="Skriv hvad tid du typisk træner på dagen, type favorit træning,
-mv. her…"></textarea>
+				<textarea  name="exercisePreferences" id="" cols="30" rows="10" class="js-elasticArea" placeholder="Skriv hvad tid du typisk træner på dagen, favorit træning, mv. her…"></textarea>
 			</div>
 		</div>
 	</div>
