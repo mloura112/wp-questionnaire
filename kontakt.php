@@ -59,7 +59,7 @@
 				<p class="visible_on_small">Navn</p>
 				<input type="text" name="Name" data-id="Navn ser forkert ud" placeholder="Dit fulde navn">
 				<p class="visible_on_small">Email</p>
-				<input type="email" name="email"  data-id="E-mail adresse ser fokert ud" class="valid_email" placeholder="Din email">
+				<input type="email" name="email"  data-id="E-mail adresse ser forkert ud" class="valid_email" placeholder="Din email">
 			</div>
 			<div class="group_sec">
 				<div class="names_group">
@@ -67,11 +67,11 @@
 					<p>Alder</p>
 				</div>
 				<p class="visible_on_small">Telefon</p>
-				<input type="text" name="phone"  data-id="Telefon ser fokert ud" id="phoneInp" placeholder="Dit telefonnummer">
+				<input type="text" name="phone"  data-id="Telefon ser forkert ud" id="phoneInp" placeholder="Dit telefonnummer">
 				<!-- <input type="text" id="date_inp" placeholder="Vælg alder…"> -->
 				<p class="visible_on_small">Alder</p>
 				<select name="age" id="age_select">
-					<option value="" data-id="Alder ser fokert ud" selected="selected" disabled="disabled">Vælg alder…</option>
+					<option value="" data-id="Alder ser forkert ud" selected="selected" disabled="disabled">Vælg alder…</option>
 				</select>
 			</div>
 		</div>
@@ -310,7 +310,7 @@
 		<h2>Træningspræferencer og erfaring</h2>
 		<h6>Hvor mange gange om ugen kan du træne?</h6>
 		<div class="gange_block">
-			<div onclick="set_exercise_preferences('1 - 2 gange');"   class="elem_of_gang" data-id="Vælge hvor mange gange om ugen du vil træne">
+			<div onclick="set_exercise_preferences('1 - 2 gange');"   class="elem_of_gang" data-id="Vælg hvor mange gange om ugen du vil træne">
 				<p>1 - 2 gange</p>
 			</div>
 			<div onclick="set_exercise_preferences('3 - 4 gange');"   class="elem_of_gang">
