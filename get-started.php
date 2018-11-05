@@ -389,9 +389,10 @@
 	</div>
 </form>
 
+<?php/*
 <div class="survey-footer">
 	<a href="https://zenfitapp.com/?utm_source=lead-survey" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
-</div>
+</div>*/?>
 
 <script
 src="https://code.jquery.com/jquery-3.3.1.js" ></script>
