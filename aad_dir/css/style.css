@@ -1,3 +1,13 @@
+.survey-footer {
+	text-align: center;
+  padding: 25px;
+  background-color: #333333;
+}
+
+.survey-footer a {
+	color: white;
+}
+
 header{
 	height:100px;
 	box-shadow: 0px 6px 10px rgba(0,0,0,0.2);

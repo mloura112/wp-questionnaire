@@ -388,8 +388,13 @@
 		</div>
 	</div>
 </form>
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js" ></script>
-  <script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/bootstrap-slider.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
-  <script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/script.js"></script>
+
+<div class="survey-footer">
+	<a href="https://zenfitapp.com" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
+</div>
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+<script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/bootstrap-slider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
+<script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/script.js"></script>
