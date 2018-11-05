@@ -1,4 +1,4 @@
-<?php /* Template Name: Kontakt */ ?>
+<?php /* Template Name: Get Started */ ?>
 <?php get_header(); ?>
 	<link rel="stylesheet" href="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 	</header>  */ ?>
-	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/ID/en"  id="aad_form" >
+	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/2130/en"  id="aad_form" >
 	<input type="hidden" name="leadType" value="survey" />
 	<div class="first_form_tap">
 		<h2>Choose gender</h2>
