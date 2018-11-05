@@ -390,7 +390,7 @@
 </form>
 
 <div class="survey-footer">
-	<a href="https://zenfitapp.com" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
+	<a href="https://zenfitapp.com/?utm_source=lead-survey" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
 </div>
 
 <script
