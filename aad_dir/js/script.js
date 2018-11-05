@@ -58,21 +58,21 @@ if($(window).width() < 540){
 }
 
 $('.valid_email').blur(function() {
-				if($(this).val() != '') {
-					var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-					if(pattern.test($(this).val())){
-						$(this).css({'border' : "2px solid rgba(122,137,153,0.5)"})
-						$(this).removeClass("wrong_field");
-					} else {
-						$(this).css({'border' : '2px solid #ff0000'});
-						$(this).addClass("wrong_field");
+	if($(this).val() != '') {
+		var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+		if(pattern.test($(this).val())){
+			$(this).css({'border' : "2px solid rgba(122,137,153,0.5)"})
+			$(this).removeClass("wrong_field");
+		} else {
+			$(this).css({'border' : '2px solid #ff0000'});
+			$(this).addClass("wrong_field");
 
-					}
-				} else {
-					$(this).css({'border' : '1px solid #ff0000'});
-					$('#valid').text('Поле email не должно быть пустым');
-				}
-			});
+		}
+	} else {
+		$(this).css({'border' : '1px solid #ff0000'});
+		$('#valid').text('Поле email не должно быть пустым');
+	}
+});
 
 
 $(".second_form_tap input , .second_form_tap select").on("blur" ,function(){
@@ -591,13 +591,6 @@ $(document).ready(function(){
 	}
 
 
-
-
-
-
-
-
-
   $(".weight_slider>input").on("change", function() {
     var type = $(".outer_third_butt > div.activethb").data('val');
     if($(this).attr('value') > 3) {
@@ -632,21 +625,21 @@ $(document).ready(function(){
 
 
 $('.valid_email').blur(function() {
-				if($(this).val() != '') {
-					var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-					if(pattern.test($(this).val())){
-						$(this).css({'border' : "2px solid rgba(122,137,153,0.5)"})
-						$(this).removeClass("wrong_field");
-					} else {
-						$(this).css({'border' : '2px solid #ff0000'});
-						$(this).addClass("wrong_field");
+	if($(this).val() != '') {
+		var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+		if(pattern.test($(this).val())){
+			$(this).css({'border' : "2px solid rgba(122,137,153,0.5)"})
+			$(this).removeClass("wrong_field");
+		} else {
+			$(this).css({'border' : '2px solid #ff0000'});
+			$(this).addClass("wrong_field");
 
-					}
-				} else {
-					$(this).css({'border' : '1px solid #ff0000'});
-					$('#valid').text('Поле email не должно быть пустым');
-				}
-			});
+		}
+	} else {
+		$(this).css({'border' : '1px solid #ff0000'});
+		$('#valid').text('Поле email не должно быть пустым');
+	}
+});
 
 
 

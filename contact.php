@@ -80,13 +80,13 @@
 	<div class="third_form_tap">
 		<h2>Your goal</h2>
 		<div class="outer_third_butt">
-			<div onclick="set_primary_goal('1');" data-id="Choose goal">
+			<div data-val="1" onclick="set_primary_goal('1');" data-id="Choose goal">
 				<div class="third_ch_img">
 					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch1.png" alt="ch1">
 				</div>
 				<p>I want to lose weight</p>
 			</div>
-			<div onclick="set_primary_goal('2');" >
+			<div data-val="2" onclick="set_primary_goal('2');" >
 				<div class="third_ch_img">
 					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch2.png" alt="ch2">
 				</div>
