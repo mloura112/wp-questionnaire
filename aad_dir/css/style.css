@@ -1019,8 +1019,9 @@ div.slider.slider-horizontal .slider-track{
 	display: flex;
 	justify-content:center;
 	align-items:center;
+	flex-direction: column;
 }
-.last_button a{
+.last_button button{
 	width: 223px;
 	position: relative;
 	height: 44px;

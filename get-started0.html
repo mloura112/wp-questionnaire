@@ -1,8 +1,7 @@
-<?php /* Template Name: Get Started */ ?>
-<?php get_header(); ?>
-	<link rel="stylesheet" href="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/css/style.css">
+<head>
+	<link rel="stylesheet" href="aad_dir/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/css/bootstrap-slider.css">
+	<link rel="stylesheet" href="aad_dir/css/bootstrap-slider.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css" />
 </head>
 <body>
@@ -51,13 +50,13 @@
 		<div class="outer_third_butt">
 			<div data-val="1" onclick="set_primary_goal('1');" data-id="Choose goal">
 				<div class="third_ch_img">
-					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch1.png" alt="ch1">
+					<img src="aad_dir/img/ch1.png" alt="ch1">
 				</div>
 				<p>I want to lose weight</p>
 			</div>
 			<div data-val="2" onclick="set_primary_goal('2');" >
 				<div class="third_ch_img">
-					<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/ch2.png" alt="ch2">
+					<img src="aad_dir/img/ch2.png" alt="ch2">
 				</div>
 				<p>I want to gain strength</p>
 			</div>
@@ -314,7 +313,7 @@
 			  <input class="form-check-input" type="checkbox" value="" id="acceptTerms" checked>
 			  <label class="form-check-label" for="acceptTerms">I accept the <a href="#" data-toggle="modal" data-target="#exampleModal">terms and conditions</a></label>
 			</div>
-			<a ><img id="aad_loading" style="display:none;width:20px;margin: -5px 81px 0 -24px;" src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/loader.gif" /><span id="aad_before_loading">DONE <img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/right_arr.png" alt="right_arr"></span></a>
+			<button><img id="aad_loading" style="display:none;width:20px;margin: -5px 81px 0 -24px;" src="aad_dir/img/loader.gif" /><span id="aad_before_loading">DONE <img src="aad_dir/img/right_arr.png" alt="right_arr"></span></button>
 			<div class="tooltip_block">
 				<p>Sorry, but you missed some fields:</p>
 			<ul></ul>
@@ -322,11 +321,6 @@
 		</div>
 	</div>
 </form>
-
-<?php/*
-<div class="survey-footer">
-	<a href="https://zenfitapp.com/?utm_source=lead-survey" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
-</div>*/?>
 
 <!-- Modal -->
 <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -349,8 +343,7 @@
   </div>
 </div>
 
-<script
-src="https://code.jquery.com/jquery-3.3.1.js" ></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/bootstrap-slider.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+<script src="aad_dir/js/bootstrap-slider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.js"></script>
-<script src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/js/script.js"></script>
+<script src="aad_dir/js/script.js"></script>
