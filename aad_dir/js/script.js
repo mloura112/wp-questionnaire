@@ -645,7 +645,7 @@ $('.valid_email').blur(function() {
 
 
 
-$(".last_button a").on('click' ,function(e){
+$(".last_button button").on('click' ,function(e){
 	e.preventDefault();
 	var allerrors = 0;
 	var localerror = 0;

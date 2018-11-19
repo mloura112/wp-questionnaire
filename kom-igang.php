@@ -347,7 +347,7 @@
 	<div class="last_button">
 
 		<div class="wrap_last_b">
-			<a ><img id="aad_loading" style="display:none;width:20px;margin: -5px 81px 0 -24px;" src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/loader.gif" /><span id="aad_before_loading">FÆRDIG, GÅ VIDERE <img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/right_arr.png" alt="right_arr"></span></a>
+			<button><img id="aad_loading" style="display:none;width:20px;margin: -5px 81px 0 -24px;" src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/loader.gif" /><span id="aad_before_loading">FÆRDIG, GÅ VIDERE <img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/right_arr.png" alt="right_arr"></span></button>
 			<div class="tooltip_block">
 				<p>Beklager, men du glemte at udfylde følgende spørgsmal korrekt:</p>
 			<ul>

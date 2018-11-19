@@ -1038,12 +1038,12 @@ div.slider.slider-horizontal .slider-track{
 	justify-content:center;
 	transition:.4s ease all;
 }
-.last_button a>img{
+.last_button button>img{
 	position: absolute;
 	right:18px;
 	top:14px;
 }
-.last_button a:hover{
+.last_button button:hover{
 	opacity:.7;
 	color:#fff;
 	text-decoration:none;
