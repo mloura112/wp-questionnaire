@@ -1660,7 +1660,7 @@ p.error_inp label:before{
 	position: relative;
 }
 .wrap_last_b{
-	width:290px;
+	width:345px;
 	display: flex;
 	flex-direction:column;
 	justify-content:center;

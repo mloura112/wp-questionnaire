@@ -232,7 +232,7 @@
 		</div>
 
 		<div class="commentar_one">
-			<p>Other comments to allergies / meal preferences / eating disorders</p>
+			<p>Other comments to allergies / meal preferences</p>
 			<textarea name="foodPreferences" id="" cols="30" rows="10" class="js-elasticArea" placeholder="Favorite foods, allergies etc."></textarea>
 		</div>
 	</div>
@@ -312,7 +312,8 @@
 		<div class="wrap_last_b">
 			<div class="form-check" style="margin-bottom: 25px;">
 			  <input class="form-check-input" type="checkbox" value="" id="acceptTerms" checked>
-			  <label class="form-check-label" for="acceptTerms">I accept the <a href="#" data-toggle="modal" data-target="#exampleModal">terms and conditions</a></label>
+				<label class="form-check-label" for="eatingDisorder">I confirm that I haven't had an eating disorder</label>
+			  <label class="form-check-label" for="acceptTerms">I accept the <a href="#" data-toggle="modal" data-target="#termsModal">terms and conditions</a></label>
 			</div>
 			<button><img id="aad_loading" style="display:none;width:20px;margin: -5px 81px 0 -24px;" src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/loader.gif" /><span id="aad_before_loading">DONE <img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/right_arr.png" alt="right_arr"></span></button>
 			<div class="tooltip_block">
