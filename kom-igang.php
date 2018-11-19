@@ -6,38 +6,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css" />
 </head>
 <body>
-<?php /*		<header>
-		<div class="container">
-			<div class="outer_head">
-				<div class="left_head">
-					<a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/left_arr.png" alt="left_arr"> tilbage</a>
-				</div>
-				<div class="lang_small">
-					<div class="language_switcher">
-						<a href=""><img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/us1.png" alt="us"></a>
-						<div class="line_bet"></div>
-						<a href="" ><img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/us2.png" alt="us"></a>
-					</div>
-				</div>
-				<div class="center_head">
-					<p>Du har besvaret <span id="percent_in_header">10%</span> af spørgsmålene</p>
-					<div class="progress">
-	  					<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
-				</div>
-				<div class="right_head">
-						<img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/logo.png" alt="logo">
-
-						<div class="language_switcher">
-							<a href=""><img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/us1.png" alt="us"></a>
-							<div class="line_bet"></div>
-							<a href=""><img src="<?php echo site_url(); ?>/wp-content/themes/jevelin/aad_dir/img/us2.png" alt="us"></a>
-						</div>
-				</div>
-			</div>
-		</div>
-	</header>  */ ?>
-	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/2130/da"  id="aad_form" >
+	<form method="POST" enctype="multipart/form-data" action="https://app.zenfitapp.com/trainer/leadCreateQuery/674/da"  id="aad_form" >
 	<input type="hidden" name="leadType" value="survey" />
 	<div class="first_form_tap">
 		<h2>Vælg dit køn</h2>
@@ -389,10 +358,9 @@
 	</div>
 </form>
 
-<?php/*
 <div class="survey-footer">
 	<a href="https://zenfitapp.com/?utm_source=lead-survey" target="_blank">Powered by Zenfit - Software for Personal Trainers & Online Coaches</a>
-</div>*/?>
+</div>
 
 <script
 src="https://code.jquery.com/jquery-3.3.1.js" ></script>
